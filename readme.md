@@ -42,7 +42,7 @@ Tunlr uses `tunlr.json` to list and connect to your services. Example:
 Using Docker makes it super easy to get up and running with the CLI. Given the example configuration here above:
 
 ```sh
-$ docker run --rm -p 1433:1433 -p 3002:3002 -v ~/.ssh/:/root/ssh:ro -it tunlr
+$ docker run --rm -p 1433:1433 -p 3002:3002 -v ~/.ssh/:/root/ssh:ro -it bjerkins/tunlr
 ```
 
 The internal `ssh` config file includes all config files under `conf.d` at the mounted path. This is convenient as to not mix your local configuration with the internal one.
