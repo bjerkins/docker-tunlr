@@ -6,8 +6,8 @@ Tunlr is all about setting up tunnels to your services running on internal netwo
 ```sh
 tunlr $ connect
 ? Choose a service: (Use arrow keys)
-❯ aws-grafana
-  database-dev
+❯ grafana
+  mssql-database
 ```
 
 It uses `autossh` in the background which ensures your connection is kept steady.
