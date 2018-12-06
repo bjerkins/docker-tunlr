@@ -1,4 +1,4 @@
-# Tunlr
+# Tunlr (beta)
 > ssh tunneling made easy.
 
 Tunlr is all about setting up tunnels to your services running on internal networks via a jumphost using a elegant CLI:
